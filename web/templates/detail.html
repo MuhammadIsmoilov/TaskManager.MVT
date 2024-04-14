@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Detail</title>
+</head>
+<body>
+    {% block content %}
+    <h1>Student Detail</h1>
+    <p>{{ object.id }}</p>
+    <p>{{ object.first_name }}</p>
+    <p>{{ object.last_name }}</p>
+    <p>{{ object.father_name }}</p>
+    <p>{{ object.adress }}</p>
+    <p>{{ object.date_of_birth }}</p>
+    <p>{{ object.bio }}</p>
+    <p>{{ object.is_married }}</p>
+    {% endblock %}
+</body>
+</html>
